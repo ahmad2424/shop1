@@ -1,0 +1,96 @@
+2021-09-07 07:54:34,379 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-07 07:54:34,380 INFO Included extra file "/etc/supervisor/conf.d/cron.conf" during parsing
+2021-09-07 07:54:34,381 INFO Included extra file "/etc/supervisor/conf.d/queue.conf" during parsing
+2021-09-07 07:54:34,387 INFO RPC interface 'supervisor' initialized
+2021-09-07 07:54:34,388 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2021-09-07 07:54:34,413 INFO supervisord started with pid 1
+2021-09-07 07:54:35,422 INFO spawned: 'cron' with pid 7
+2021-09-07 07:54:35,433 INFO spawned: 'queue_00' with pid 8
+2021-09-07 07:54:36,436 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-07 07:54:36,437 INFO success: queue_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-07 14:40:52,922 WARN received SIGTERM indicating exit request
+2021-09-07 14:40:52,923 INFO waiting for cron, queue_00 to die
+2021-09-07 14:40:52,931 INFO stopped: queue_00 (terminated by SIGTERM)
+2021-09-07 14:40:52,933 INFO stopped: cron (terminated by SIGTERM)
+2021-09-07 14:41:04,138 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-07 14:41:04,139 INFO Included extra file "/etc/supervisor/conf.d/cron.conf" during parsing
+2021-09-07 14:41:04,139 INFO Included extra file "/etc/supervisor/conf.d/queue.conf" during parsing
+2021-09-07 14:41:04,146 INFO RPC interface 'supervisor' initialized
+2021-09-07 14:41:04,147 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2021-09-07 14:41:04,152 INFO supervisord started with pid 1
+2021-09-07 14:41:05,158 INFO spawned: 'cron' with pid 8
+2021-09-07 14:41:05,165 INFO spawned: 'queue_00' with pid 9
+2021-09-07 14:41:06,167 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-07 14:41:06,167 INFO success: queue_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-09 10:47:44,350 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-09 10:47:44,352 INFO Included extra file "/etc/supervisor/conf.d/cron.conf" during parsing
+2021-09-09 10:47:44,353 INFO Included extra file "/etc/supervisor/conf.d/queue.conf" during parsing
+2021-09-09 10:47:44,384 INFO RPC interface 'supervisor' initialized
+2021-09-09 10:47:44,385 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2021-09-09 10:47:44,390 INFO supervisord started with pid 1
+2021-09-09 10:47:45,488 INFO spawned: 'cron' with pid 8
+2021-09-09 10:47:45,509 INFO spawned: 'queue_00' with pid 9
+2021-09-09 10:47:46,511 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-09 10:47:46,512 INFO success: queue_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-10 07:42:10,343 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-10 07:42:10,355 INFO Included extra file "/etc/supervisor/conf.d/cron.conf" during parsing
+2021-09-10 07:42:10,356 INFO Included extra file "/etc/supervisor/conf.d/queue.conf" during parsing
+2021-09-10 07:42:10,373 INFO RPC interface 'supervisor' initialized
+2021-09-10 07:42:10,374 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2021-09-10 07:42:10,379 INFO supervisord started with pid 1
+2021-09-10 07:42:11,391 INFO spawned: 'cron' with pid 7
+2021-09-10 07:42:11,398 INFO spawned: 'queue_00' with pid 8
+2021-09-10 07:42:12,404 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-10 07:42:12,405 INFO success: queue_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-10 09:08:11,433 WARN received SIGTERM indicating exit request
+2021-09-10 09:08:11,436 INFO waiting for cron, queue_00 to die
+2021-09-10 09:08:11,453 INFO stopped: queue_00 (terminated by SIGTERM)
+2021-09-10 09:08:11,458 INFO stopped: cron (terminated by SIGTERM)
+2021-09-10 09:08:12,113 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-10 09:08:12,114 INFO Included extra file "/etc/supervisor/conf.d/cron.conf" during parsing
+2021-09-10 09:08:12,115 INFO Included extra file "/etc/supervisor/conf.d/queue.conf" during parsing
+2021-09-10 09:08:12,122 INFO RPC interface 'supervisor' initialized
+2021-09-10 09:08:12,123 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2021-09-10 09:08:12,127 INFO supervisord started with pid 1
+2021-09-10 09:08:13,137 INFO spawned: 'cron' with pid 7
+2021-09-10 09:08:13,142 INFO spawned: 'queue_00' with pid 8
+2021-09-10 09:08:14,145 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-10 09:08:14,146 INFO success: queue_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-10 10:19:18,173 WARN received SIGTERM indicating exit request
+2021-09-10 10:19:18,175 INFO waiting for cron, queue_00 to die
+2021-09-10 10:19:18,184 INFO stopped: queue_00 (terminated by SIGTERM)
+2021-09-10 10:19:18,186 INFO stopped: cron (terminated by SIGTERM)
+2021-09-10 10:19:18,868 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-10 10:19:18,869 INFO Included extra file "/etc/supervisor/conf.d/cron.conf" during parsing
+2021-09-10 10:19:18,869 INFO Included extra file "/etc/supervisor/conf.d/queue.conf" during parsing
+2021-09-10 10:19:18,875 INFO RPC interface 'supervisor' initialized
+2021-09-10 10:19:18,876 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2021-09-10 10:19:18,880 INFO supervisord started with pid 1
+2021-09-10 10:19:19,887 INFO spawned: 'cron' with pid 7
+2021-09-10 10:19:19,893 INFO spawned: 'queue_00' with pid 8
+2021-09-10 10:19:20,895 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-10 10:19:20,896 INFO success: queue_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-17 11:25:53,601 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-17 11:25:53,603 INFO Included extra file "/etc/supervisor/conf.d/cron.conf" during parsing
+2021-09-17 11:25:53,603 INFO Included extra file "/etc/supervisor/conf.d/queue.conf" during parsing
+2021-09-17 11:25:53,617 INFO RPC interface 'supervisor' initialized
+2021-09-17 11:25:53,618 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2021-09-17 11:25:53,625 INFO supervisord started with pid 1
+2021-09-17 11:25:54,641 INFO spawned: 'cron' with pid 7
+2021-09-17 11:25:54,652 INFO spawned: 'queue_00' with pid 8
+2021-09-17 11:25:55,656 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-17 11:25:55,657 INFO success: queue_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-17 11:28:39,846 WARN received SIGTERM indicating exit request
+2021-09-17 11:28:39,847 INFO waiting for cron, queue_00 to die
+2021-09-17 11:28:39,854 INFO stopped: queue_00 (terminated by SIGTERM)
+2021-09-17 11:28:39,856 INFO stopped: cron (terminated by SIGTERM)
+2021-09-17 11:28:53,241 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-09-17 11:28:53,241 INFO Included extra file "/etc/supervisor/conf.d/cron.conf" during parsing
+2021-09-17 11:28:53,242 INFO Included extra file "/etc/supervisor/conf.d/queue.conf" during parsing
+2021-09-17 11:28:53,249 INFO RPC interface 'supervisor' initialized
+2021-09-17 11:28:53,249 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2021-09-17 11:28:53,254 INFO supervisord started with pid 1
+2021-09-17 11:28:54,258 INFO spawned: 'cron' with pid 7
+2021-09-17 11:28:54,268 INFO spawned: 'queue_00' with pid 8
+2021-09-17 11:28:55,269 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-09-17 11:28:55,270 INFO success: queue_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

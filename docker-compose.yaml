@@ -1,0 +1,77 @@
+version: "3.8"
+
+services:
+
+  nginx:
+    image: nginx:1.21
+    container_name: nginx-container-shop1
+    ports:
+      - "80:80"
+    volumes:
+      - ./src/laravel:/var/www/laravel
+      - ./services/nginx:/etc/nginx/conf.d
+    depends_on:
+      - laravel
+
+  mysql: 
+    image: mysql:8
+    container_name: mysql-container-shop1
+    env_file:
+      - ./services/mysql/.env
+    ports:
+      - "33061:3306"
+    volumes:
+      - mysql-db-shop1:/var/lib/mysql
+
+  laravel:
+    container_name: laravel-container-shop1
+    build: ./services/php/
+    volumes:
+      - ./src/laravel:/var/www/laravel
+    depends_on:
+      - mysql
+    
+  redis:
+    restart: always
+    container_name: redis-container-shop1
+    build : ./services/redis/
+    volumes:
+      - redis-db-shop1:/data
+    ports:
+      - 6379:6379
+  
+  mongo : 
+    container_name: mongo-container-shop1
+    image: mongo:latest
+    ports:
+        - 27017:27017
+    env_file:
+      - ./services/mongo/.env
+    volumes:
+      - mongo-db-shop1:/data/db
+  
+
+  supervisor:
+    build: ./services/supervisor/
+    container_name: supervisor-container-shop1
+    restart: unless-stopped
+    volumes:
+      - ./src/laravel:/var/www/laravel
+      - ./services/supervisor/conf.d:/etc/supervisor/conf.d
+      - ./services/supervisor/cron.d:/etc/supervisor/cron.d
+      - ./services/supervisor/logs:/var/log
+    depends_on:
+      - php
+      - mysql
+      - redis
+
+
+# Adding volume to below
+# volume data wont delete after container downed or deleted
+volumes:
+  mysql-db-shop1:
+    driver : local
+  redis-db-shop1:
+    driver : local
+  mongo-db-shop1:
+    driver : local

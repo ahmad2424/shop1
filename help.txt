@@ -1,0 +1,2 @@
+compile container : docker-compose up --build
+run container : docker-compose up 

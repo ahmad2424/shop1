@@ -1,0 +1,11 @@
+/*@import "~bootstrap";*/
+/*@import "~font-awesome" ;*/
+
+
+
+/*@import "./metronic/style.bundle.css";*/
+@import "../component/metronic/theme/demo1/dist/assets/plugins/global/plugins.bundle.css";
+@import "../component/metronic/theme/demo1/dist/assets/css/style.bundle.css";
+
+@import "./metronic/shop1.css";
+

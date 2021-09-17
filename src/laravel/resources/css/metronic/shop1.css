@@ -1,0 +1,7 @@
+div.dropdown-menu >ul > li.navi-header:hover{
+    opacity: 60% ;
+}
+
+.profile-svg:hover  .dropdown-menu{
+    display: block ;
+}

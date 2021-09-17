@@ -1,1 +1,16 @@
 test
+src/laravel/.idea
+src/laravel/bootstrap
+src/laravel/node_modules
+src/laravel/vendor
+src/laravel/.env
+src/laravel/.env.example
+src/laravel/git.txt
+src/laravel/tests
+src/laravel/testT
+src/laravel/public/resources
+src/laravel/public/testT
+src/laravel/public/jsmetronic
+src/laravel/resources/component
+src/laravel/storage/*
+
